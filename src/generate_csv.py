@@ -1,4 +1,4 @@
-from lxml import etree
+import xml.etree.ElementTree as ET
 import os
 
 # Dataset directory
@@ -11,7 +11,7 @@ for filename in os.listdir(os.path.abspath(directory)):
     if filename.endswith(".sdlxliff"):
         file_path = os.path.join(directory, filename)
 
-        doc_tree = etree.parse(file_path, etree.XMLParser(huge_tree=True))
+        doc_tree = ET.parse(file_path)
 
         # CSV collumns
         filename = ""
@@ -24,12 +24,11 @@ for filename in os.listdir(os.path.abspath(directory)):
 
         targetlang = ""
 
-        sourcetext = doc_tree.xpath("//*[name()='source']")
+        sourcetext = doc_tree.findall(".//{urn:oasis:names:tc:xliff:document:1.2}g")[0].text
 
         targettext = ""
 
-        print(sourcetext[0].values)
+        print(sourcetext)
         #hackforgood_dataset_csv
-        exit()
 
         
