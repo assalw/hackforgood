@@ -68,8 +68,8 @@ def save_model():
 def validate():
     print("validating with test set")
 
-def predict():
-    print("predicted")
+def predict(text):
+    return model_pipeline.predict(text)
 
 # Flask API TODO: Wire to predict function
 @app.route('/predict')
