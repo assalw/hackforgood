@@ -19,9 +19,12 @@ RANDOM_STATE = 66
 # Read dataset https://stackoverflow.com/questions/11023411/how-to-import-csv-data-file-into-scikit-learn
 input_file = "../dataset/hackforgood_dataset_wadie_model.xlsx"
 dataset_df = pd.read_excel(input_file, header = 0)
+#trim whitespaces from column names
+#dh.rename(columns=lambda x: x.strip(), inplace = True)
 
 # put the original column names in a python list
 original_headers = list(dataset_df.columns.values)
+print(original_headers)
 
 # put the numeric column names in a python list
 dataframe_numeric = dataframe._get_numeric_data()
