@@ -9,7 +9,7 @@ import re
 directory = "../dataset/hackathon-for-good-2019_TWB-challenge_files"
 
 # Generated dataset
-hackforgood_dataset_csv = "filename~ datatype~ sourcelang~ targetlang~ sourcetext~ targettext\n"
+hackforgood_dataset_csv = "filename, datatype, sourcelang, targetlang, sourcetext, targettext\n"
 
 # Loop through al the dirs
 for filename in os.listdir(os.path.abspath(directory)):
@@ -48,7 +48,7 @@ for filename in os.listdir(os.path.abspath(directory)):
                         if elem.text is not None: 
                                 targettext += " " + elem.text
 
-        hackforgood_dataset_csv += "\"{}\"~ {}~ {}~ {}~ \"{}\"~ \"{}\"\n".format(filename,
+        hackforgood_dataset_csv += "\"{}\", {}, {}, {}, \"{}\", \"{}\"\n".format(filename,
                                                                                 doctype,
                                                                                 sourcelang, 
                                                                                 targetlang, 
@@ -64,6 +64,6 @@ for filename in os.listdir(os.path.abspath(directory)):
         #        exit()
 
 # Generate dataset
-hackforgood_dataset_csv_file = open("../dataset/hackforgood_dataset.csv", "w")
+hackforgood_dataset_csv_file = open("../dataset/hackforgood_dataset_wadie.csv", "w")
 hackforgood_dataset_csv_file.write(hackforgood_dataset_csv)
 hackforgood_dataset_csv_file.close()
