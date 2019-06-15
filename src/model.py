@@ -78,9 +78,9 @@ features_pipeline = ('features', FeatureUnion([
 
 classifier = ("AB", AdaBoostClassifier(n_estimators=250))
 
-#scaler = ('min/max scaler', MaxAbsScaler())
+scaler = ('min/max scaler', MaxAbsScaler())
 
-model_pipeline = Pipeline([features_pipeline, classifier])
+model_pipeline = Pipeline([features_pipeline, scaler, classifier])
 
 # Model methods TODO: Wrap in flask
 def train():
