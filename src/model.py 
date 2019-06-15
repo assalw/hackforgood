@@ -33,10 +33,10 @@ target = dataset_df['impact']
 
 # split the dataset in training and test set:
 self.x_train, self.x_test, self.y_train, self.y_test = train_test_split(
-    self.features, self.target, test_size=0.20, random_state=RANDOM_STATE)
+    features, target, test_size=0.20, random_state=RANDOM_STATE)
 
 # Model pipeline
-features = ('features', FeatureUnion([
+features_pipeline = ('features', FeatureUnion([
         ('vect_w', TfidfVectorizer(min_df=0, max_df=0.95, analyzer="word", ngram_range=(1, 2))),
         ('vect_c', TfidfVectorizer(min_df=0, max_df=0.95, analyzer="char", ngram_range=(1, 2))),
         ('vec', CountVectorizer()),
@@ -46,11 +46,11 @@ classifier = ("AB", AdaBoostClassifier(n_estimators=250))
 
 scaler = ('min/max scaler', MaxAbsScaler())
 
-model_pipeline = Pipeline([features, scaler, classifier])
+model_pipeline = Pipeline([features_pipeline, scaler, classifier])
 
 # Model methods TODO: Wrap in flask
 def train():
-    print("trained")
+    model_pipeline.fit(self.docs_train, self.y_train)
 
 def save_model():
     print("saved")
