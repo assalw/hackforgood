@@ -24,7 +24,13 @@ for filename in os.listdir(os.path.abspath(directory)):
 
         targetlang = ""
 
-        sourcetext = doc_tree.findall(".//{urn:oasis:names:tc:xliff:document:1.2}g")[0].text
+
+        sourcetext = ""
+        
+        sourcetext_list = doc_tree.findall(".//{urn:oasis:names:tc:xliff:document:1.2}g")
+        for i in sourcetext_list:
+                if i.text is not None:
+                        sourcetext = sourcetext + i.text
 
         targettext = ""
 
