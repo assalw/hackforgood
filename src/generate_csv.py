@@ -5,7 +5,7 @@ import os
 directory = "../dataset/hackathon-for-good-2019_TWB-challenge_files"
 
 # Generated dataset
-hackforgood_dataset_csv = "filename, timestamp, wordcount, sourcelang, targetlang, sourcetext, targettext\n"
+hackforgood_dataset_csv = "filename, sourcelang, targetlang, sourcetext, targettext\n"
 
 for filename in os.listdir(os.path.abspath(directory)):
     if filename.endswith(".sdlxliff"):
@@ -14,16 +14,12 @@ for filename in os.listdir(os.path.abspath(directory)):
         doc_tree = ET.parse(file_path)
 
         # CSV collumns
-        filename = ""
 
-        timestamp = ""
+        file_nodes = doc_tree.findall(".//{urn:oasis:names:tc:xliff:document:1.2}file")
 
-        wordcount = ""
+        sourcelang = file_nodes[0].attrib.get('source-language')
 
-        sourcelang = ""
-
-        targetlang = ""
-
+        targetlang = file_nodes[0].attrib.get('target-language')
 
         sourcetext = ""
         
@@ -34,7 +30,7 @@ for filename in os.listdir(os.path.abspath(directory)):
 
         targettext = ""
 
-        print(sourcetext)
+        print(file_nodes[0].attrib.get('target-language'))
         #hackforgood_dataset_csv
 
         
