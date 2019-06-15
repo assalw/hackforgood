@@ -44,8 +44,8 @@ for filename in os.listdir(os.path.abspath(directory)):
         hackforgood_dataset_csv = hackforgood_dataset_csv + "\"{}\", {}, {}, \"{}\", \"{}\"\n".format(filename, sourcelang, targetlang, sourcetext, targettext) 
         
         exit_please = exit_please + 1
-        if exit_please > 10:
-                hackforgood_dataset_csv_file = open("hackforgood_dataset.csv", "w")
+        if exit_please > 500:
+                hackforgood_dataset_csv_file = open("../dataset/hackforgood_dataset.csv", "w")
                 hackforgood_dataset_csv_file.write(hackforgood_dataset_csv)
                 hackforgood_dataset_csv_file.close()
                 exit()
