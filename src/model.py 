@@ -45,8 +45,8 @@ x_train, x_test, y_train, y_test = train_test_split(
 
 # Model pipeline
 features_pipeline = ('features', FeatureUnion([
-        ('vect_w', TfidfVectorizer(min_df=0, max_df=0.95, analyzer="word", ngram_range=(1, 2))),
-        ('vect_c', TfidfVectorizer(min_df=0, max_df=0.95, analyzer="char", ngram_range=(1, 2))),
+        ('vect_w', TfidfVectorizer(min_df=0, max_df=0.98, analyzer="word", ngram_range=(1, 2))),
+        ('vect_c', TfidfVectorizer(min_df=0, max_df=0.98, analyzer="char", ngram_range=(1, 2))),
         ('vec', CountVectorizer()),
     ]))
 
