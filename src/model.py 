@@ -1,4 +1,4 @@
-import sys, os, logging
+import sys, os, logging, pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.pipeline import FeatureUnion
@@ -25,7 +25,6 @@ dataset_df.rename(columns=lambda x: x.strip(), inplace = True)
 
 # put the original column names in a python list
 original_headers = list(dataset_df.columns.values)
-print(original_headers)
 
 # put the numeric column names in a python list
 dataframe_numeric = dataset_df._get_numeric_data()
@@ -36,8 +35,8 @@ target_cols = ['impact']
 target = dataset_df['impact']
 
 # split the dataset in training and test set:
-self.x_train, self.x_test, self.y_train, self.y_test = train_test_split(
-    features, target, test_size=0.20, random_state=RANDOM_STATE)
+x_train, x_test, y_train, y_test = train_test_split(
+    dataframe_numeric, target, test_size=0.20, random_state=RANDOM_STATE)
 
 # Model pipeline
 features_pipeline = ('features', FeatureUnion([
@@ -54,10 +53,15 @@ model_pipeline = Pipeline([features_pipeline, scaler, classifier])
 
 # Model methods TODO: Wrap in flask
 def train():
-    model_pipeline.fit(self.docs_train, self.y_train)
+    model_pipeline.fit(x_train, y_train)
 
 def save_model():
-    print("saved")
+    pickle_out = open("../dataset/hackforgood.model","wb")
+    pickle.dump(model_pipeline, pickle_out)
+    pickle_out.close()
+
+def validate():
+    print("validating with test set")
 
 def predict():
     print("predicted")
