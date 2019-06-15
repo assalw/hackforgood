@@ -101,7 +101,7 @@ def predict(text):
 
 # Flask API TODO: Wire to predict function
 @app.route('/predict')
-def predict():
+def api_predict():
     return 'Hello, World!'
 
 def run_flask_api():
