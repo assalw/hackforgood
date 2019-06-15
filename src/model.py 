@@ -1,0 +1,40 @@
+import sys, os, logging
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.pipeline import FeatureUnion
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn.pipeline import Pipeline
+from sklearn.datasets import load_files
+from sklearn import metrics
+from sklearn.preprocessing import MaxAbsScaler
+#from sklearn.cross_validation import train_test_split
+#from sklearn.cross_validation import cross_val_score
+
+dataset = 
+
+features = ('features', FeatureUnion([
+        ('vect_w', TfidfVectorizer(min_df=0, max_df=0.95, analyzer="word", ngram_range=(1, 2))),
+        ('vect_c', TfidfVectorizer(min_df=0, max_df=0.95, analyzer="char", ngram_range=(1, 2))),
+        ('vec', CountVectorizer()),
+    ]))
+
+classifier = ("AB", AdaBoostClassifier(n_estimators=250))
+
+scaler = ('min/max scaler', MaxAbsScaler())
+
+model_pipeline = Pipeline([features, scaler, classifier])
+
+def train():
+    print("trained")
+
+def save_model():
+    print("saved")
+
+def predict():
+    print("predicted")
+
+def main():
+    train()
+
+if __name__ == "__main__":
+    sys.exit(main())
