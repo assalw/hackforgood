@@ -21,7 +21,7 @@ app = Flask(__name__)
 # To get stable experimental result
 RANDOM_STATE = 66
 
-# Read dataset https://stackoverflow.com/questions/11023411/how-to-import-csv-data-file-into-scikit-learn
+# Read dataset
 input_file = "../dataset/hackforgood_dataset_wadie_model.xlsx"
 dataset_df = pd.read_excel(input_file, header = 0)
 
