@@ -109,7 +109,7 @@ def run_flask_api():
 
 def main():
     # Parse arguments
-    arguments = docopt(__doc__, version='File header based file type classifier')
+    arguments = docopt(__doc__, version='Translaters without borders impact classifier')
 
     if (arguments.get("train")):
         train()
