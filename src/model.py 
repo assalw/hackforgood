@@ -1,4 +1,23 @@
+"""Translaters without borders impact classifier
+
+Usage:
+  model.py
+  model.py train
+  model.py validate
+
+Options:
+  -h --help     Show this screen.
+  train         Trains with the specified dataset and classifier.
+  
+Examples:
+
+    Train and test the machine learning model
+    - python model.py train hackforgood_human_classified.xlsx
+"""
+
+
 import sys, os, logging, pickle
+from docopt import docopt
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.pipeline import FeatureUnion
@@ -87,8 +106,13 @@ def run_flask_api():
     app.run()
 
 def main():
-    #train()
-    validate()
+    # Parse arguments
+    arguments = docopt(__doc__, version='File header based file type classifier')
+
+    if (arguments.get("train")):
+        train()
+    elif (arguments.get("validate")):
+        validate()
 
 if __name__ == "__main__":
     sys.exit(main())
