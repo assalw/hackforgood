@@ -30,7 +30,7 @@ ngo <- unique(metadata$NGO)
 
 #counts of NGOs
 # counts
-counts_ngos <- ngo_proc %>% group_by(NGO, word_) %>% summarise(n_reqs_total = length(Filename),
+counts_ngos <- ngo_proc %>% group_by(NGO) %>% summarise(n_reqs_total = length(Filename),
                                                         n_wordcounts_total = sum())
 
 #make plot of counts of NGO
@@ -41,6 +41,7 @@ counts_NGO_plot <- counts_ngos %>% ggplot(aes(x = reorder(NGO, -n_reqs_total), y
     ylab("no_rows") +
     theme_classic() +
     theme(axis.text.x=element_text(angle=45, hjust=1))
+counts_NGO_plot
 
 
 
