@@ -37,6 +37,7 @@ import numpy as np
 import pandas as pd
 
 from flask import Flask
+from flask import request
 
 # Flask app
 app = Flask(__name__)
