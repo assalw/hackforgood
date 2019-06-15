@@ -8,7 +8,7 @@ exit_please = 0
 directory = "../dataset/hackathon-for-good-2019_TWB-challenge_files"
 
 # Generated dataset
-hackforgood_dataset_csv = "filename, sourcelang, targetlang, sourcetext, targettext\n"
+hackforgood_dataset_csv = "filename, datatype, sourcelang, targetlang, sourcetext, targettext\n"
 
 # Loop through al the dirs
 for filename in os.listdir(os.path.abspath(directory)):
@@ -24,6 +24,7 @@ for filename in os.listdir(os.path.abspath(directory)):
         if len(file_nodes) > 0: 
                 sourcelang = file_nodes[0].attrib.get('source-language')
                 targetlang = file_nodes[0].attrib.get('target-language')
+                doctype = file_nodes[0].attrib.get('datatype')
         else:
              sourcelang = "NULL"
              targetlang = "NULL"
@@ -46,15 +47,16 @@ for filename in os.listdir(os.path.abspath(directory)):
                         if elem.text is not None: 
                                 targettext += " " + elem.text
 
-        hackforgood_dataset_csv += "\"{}\", {}, {}, \"{}\", \"{}\"\n".format(filename, 
+        hackforgood_dataset_csv += "\"{}\", {}, {}, {}, \"{}\", \"{}\"\n".format(filename,
+                                                                        doctype,
                                                                         sourcelang, 
                                                                         targetlang, 
                                                                         sourcetext.replace('\n', ' '), 
                                                                         targettext.replace('\n', ' ')) 
         
         #Only generate a sample dataset
-        #exit_please += 1
-        #if exit_please > 500:
+        # exit_please += 1
+        # if exit_please > 500:
         #        hackforgood_dataset_csv_file = open("../dataset/hackforgood_dataset.csv", "w")
         #        hackforgood_dataset_csv_file.write(hackforgood_dataset_csv)
         #        hackforgood_dataset_csv_file.close()
