@@ -20,8 +20,13 @@ for filename in os.listdir(os.path.abspath(directory)):
 
         # Get the source and target languages
         file_nodes = doc_tree.findall(".//{urn:oasis:names:tc:xliff:document:1.2}file")
-        sourcelang = file_nodes[0].attrib.get('source-language')
-        targetlang = file_nodes[0].attrib.get('target-language')
+        
+        if len(file_nodes) > 0: 
+                sourcelang = file_nodes[0].attrib.get('source-language')
+                targetlang = file_nodes[0].attrib.get('target-language')
+        else:
+             sourcelang = "NULL"
+             targetlang = "NULL"
 
         # Get the source text
         sourcetext = ""
@@ -41,12 +46,21 @@ for filename in os.listdir(os.path.abspath(directory)):
                         if elem.text is not None: 
                                 targettext += " " + elem.text
 
-        hackforgood_dataset_csv += "\"{}\", {}, {}, \"{}\", \"{}\"\n".format(filename, sourcelang, targetlang, sourcetext, targettext) 
+        hackforgood_dataset_csv += "\"{}\", {}, {}, \"{}\", \"{}\"\n".format(filename, 
+                                                                        sourcelang, 
+                                                                        targetlang, 
+                                                                        sourcetext.replace('\n', ' '), 
+                                                                        targettext.replace('\n', ' ')) 
         
         #Only generate a sample dataset
-        exit_please += 1
-        if exit_please > 500:
-                hackforgood_dataset_csv_file = open("../dataset/hackforgood_dataset.csv", "w")
-                hackforgood_dataset_csv_file.write(hackforgood_dataset_csv)
-                hackforgood_dataset_csv_file.close()
-                exit()
+        #exit_please += 1
+        #if exit_please > 500:
+        #        hackforgood_dataset_csv_file = open("../dataset/hackforgood_dataset.csv", "w")
+        #        hackforgood_dataset_csv_file.write(hackforgood_dataset_csv)
+        #        hackforgood_dataset_csv_file.close()
+        #        exit()
+
+# Generate dataset
+hackforgood_dataset_csv_file = open("../dataset/hackforgood_dataset.csv", "w")
+hackforgood_dataset_csv_file.write(hackforgood_dataset_csv)
+hackforgood_dataset_csv_file.close()
