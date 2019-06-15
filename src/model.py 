@@ -4,12 +4,14 @@ Usage:
   model.py train
   model.py validate
   model.py server
+  model.py predict <text>
 
 Options:
   -h --help     Show this screen.
   train         Trains with the specified dataset and classifier.
   validate      Run cross validation on the training set
   server        Run API server
+  predict       Text to predict
   
 Examples:
 
@@ -87,7 +89,7 @@ def save_model():
     pickle_out.close()
 
 def load_model():
-    features_pipeline = pickle.load(open( "../dataset/hackforgood.model", "rb"))
+    model_pipeline = pickle.load(open( "../dataset/hackforgood.model", "rb"))
 
 def classification_report_with_accuracy_score(y_true, y_pred):
     print(classification_report(y_true, y_pred)) # print classification report
@@ -103,9 +105,10 @@ def predict(text):
     return model_pipeline.predict([text])
 
 # Flask API TODO: Wire to predict function
-@app.route('/predict')
+@app.route('/predict', methods = ['POST'])
 def api_predict():
-    return 'Hello, World!'
+    if request.method == 'POST':
+        print(data = request.data)
 
 def run_flask_api():
     app.run()
@@ -116,10 +119,16 @@ def main():
 
     if (arguments.get("train")):
         train()
+        save_model()
     elif (arguments.get("validate")):
         validate()
     elif (arguments.get("server")):
         run_flask_api()
+    elif (arguments.get("predict")):
+        predict_text = arguments.get("<text>")
+        load_model()
+        print(model_pipeline.predict(["sdjlfjdk"]))
+        #print(predict(predict_text))
 
 if __name__ == "__main__":
     sys.exit(main())
