@@ -1,8 +1,9 @@
 import xml.etree.ElementTree as ET
 import os
+import re
 
 # Used for sample dataset
-exit_please = 0
+#exit_please = 0
 
 # Dataset directory
 directory = "../dataset/hackathon-for-good-2019_TWB-challenge_files"
@@ -38,6 +39,7 @@ for filename in os.listdir(os.path.abspath(directory)):
                         if elem.text is not None: 
                                 sourcetext += " " + elem.text
         
+        
         # Get the target text
         targettext = ""
         targettext_list = doc_tree.findall(".//{urn:oasis:names:tc:xliff:document:1.2}target")
@@ -47,15 +49,15 @@ for filename in os.listdir(os.path.abspath(directory)):
                         if elem.text is not None: 
                                 targettext += " " + elem.text
 
-        hackforgood_dataset_csv += "\"{}\", {}, {}, {}, \"{}\", \"{}\"\n".format(filename,
-                                                                        doctype,
-                                                                        sourcelang, 
-                                                                        targetlang, 
-                                                                        sourcetext.replace('\n', ' '), 
-                                                                        targettext.replace('\n', ' ')) 
+        hackforgood_dataset_csv += "\"{}\"~ {}~ {}~ {}~ \"{}\"~ \"{}\"\n".format(filename,
+                                                                                doctype,
+                                                                                sourcelang, 
+                                                                                targetlang, 
+                                                                                sourcetext.replace('\n', ' '), 
+                                                                                targettext.replace('\n', ' ')) 
         
         #Only generate a sample dataset
-        # exit_please += 1
+        #exit_please += 1
         # if exit_please > 500:
         #        hackforgood_dataset_csv_file = open("../dataset/hackforgood_dataset.csv", "w")
         #        hackforgood_dataset_csv_file.write(hackforgood_dataset_csv)
