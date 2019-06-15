@@ -7,8 +7,8 @@ from sklearn.pipeline import Pipeline
 from sklearn.datasets import load_files
 from sklearn import metrics
 from sklearn.preprocessing import MaxAbsScaler
-#from sklearn.cross_validation import train_test_split
-#from sklearn.cross_validation import cross_val_score
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import cross_val_score
 
 import numpy as np
 import pandas as pd
@@ -19,15 +19,16 @@ RANDOM_STATE = 66
 # Read dataset https://stackoverflow.com/questions/11023411/how-to-import-csv-data-file-into-scikit-learn
 input_file = "../dataset/hackforgood_dataset_wadie_model.xlsx"
 dataset_df = pd.read_excel(input_file, header = 0)
-#trim whitespaces from column names
-#dh.rename(columns=lambda x: x.strip(), inplace = True)
+
+# Trim whitespaces from column names
+dataset_df.rename(columns=lambda x: x.strip(), inplace = True)
 
 # put the original column names in a python list
 original_headers = list(dataset_df.columns.values)
 print(original_headers)
 
 # put the numeric column names in a python list
-dataframe_numeric = dataframe._get_numeric_data()
+dataframe_numeric = dataset_df._get_numeric_data()
 feature_cols = list(dataframe_numeric.columns.values)
 
 # Target column and data
