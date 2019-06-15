@@ -39,6 +39,7 @@ import pandas as pd
 
 from flask import Flask
 from flask import request
+from flask import json
 
 # Flask app
 app = Flask(__name__)
@@ -114,7 +115,9 @@ def predict(text):
 @app.route('/predict', methods = ['POST'])
 def api_predict():
     if request.method == 'POST':
-        print(data = request.data)
+        text = request.args.get('text')
+        predict_class = predict(text)
+        return str(predict_class)
 
 def run_flask_api():
     app.run()
