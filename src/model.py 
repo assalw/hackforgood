@@ -31,7 +31,7 @@ dataset_df.rename(columns=lambda x: x.strip(), inplace = True)
 # put the original column names in a python list
 original_headers = list(dataset_df.columns.values)
 
-# put the numeric column names in a python list TODO: Should filename back in
+# put the numeric column names in a python list TODO: Should put filename back in
 features = dataset_df['sourcetext']
 feature_cols = list(dataset_df.columns.values)
 
@@ -66,7 +66,10 @@ def save_model():
     pickle_out.close()
 
 def validate():
-    print("validating with test set")
+    cross_val = StratifiedKFold(n_splits=10, shuffle=False, random_state=RANDOM_STATE)
+    scores = cross_val_score(model_pipeline, x_train, y_train, cv=cross_val)
+    print(scores)
+    return scores
 
 def predict(text):
     return model_pipeline.predict(text)
@@ -80,7 +83,8 @@ def run_flask_api():
     app.run()
 
 def main():
-    train()
+    #train()
+    validate()
 
 if __name__ == "__main__":
     sys.exit(main())
