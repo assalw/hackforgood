@@ -20,7 +20,7 @@ Examples:
 """
 
 
-import sys, os, logging, pickle
+import sys, os, logging
 from docopt import docopt
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
@@ -32,6 +32,7 @@ from sklearn import metrics
 from sklearn.preprocessing import MaxAbsScaler
 from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_score
 from sklearn.metrics import classification_report, accuracy_score, make_scorer
+import pickle
 
 import numpy as np
 import pandas as pd
@@ -76,21 +77,25 @@ features_pipeline = ('features', FeatureUnion([
 
 classifier = ("AB", AdaBoostClassifier(n_estimators=250))
 
-scaler = ('min/max scaler', MaxAbsScaler())
+#scaler = ('min/max scaler', MaxAbsScaler())
 
-model_pipeline = Pipeline([features_pipeline, scaler, classifier])
+model_pipeline = Pipeline([features_pipeline, classifier])
 
 # Model methods TODO: Wrap in flask
 def train():
     model_pipeline.fit(x_train, y_train)
 
 def save_model():
-    pickle_out = open("../dataset/hackforgood.model","wb")
-    pickle.dump(model_pipeline, pickle_out)
+    pickle_out = open("../dataset/hackforgood.model","wb+")
+    pickle.dump(model_pipeline, pickle_out, protocol=pickle.HIGHEST_PROTOCOL)
     pickle_out.close()
 
 def load_model():
-    model_pipeline = pickle.load(open( "../dataset/hackforgood.model", "rb"))
+    # <3 https://www.cnblogs.com/zz22--/p/9454234.html
+    #features_pipeline[1].fit_transform(features)
+    #ada_classifier = pickle.load(open( "../dataset/hackforgood.model", "rb"))
+    #model_pipeline = Pipeline([features_pipeline, ("AB", ada_classifier)])
+    pass
 
 def classification_report_with_accuracy_score(y_true, y_pred):
     print(classification_report(y_true, y_pred)) # print classification report
@@ -124,12 +129,12 @@ def main():
     elif (arguments.get("validate")):
         validate()
     elif (arguments.get("server")):
+        train()
         run_flask_api()
     elif (arguments.get("predict")):
         predict_text = arguments.get("<text>")
-        load_model()
-        print(model_pipeline.predict(["sdjlfjdk"]))
-        #print(predict(predict_text))
+        train()
+        print(predict(predict_text))
 
 if __name__ == "__main__":
     sys.exit(main())
