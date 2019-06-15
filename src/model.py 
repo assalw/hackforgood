@@ -1,18 +1,20 @@
 """Translaters without borders impact classifier
 
 Usage:
-  model.py
   model.py train
   model.py validate
+  model.py server
 
 Options:
   -h --help     Show this screen.
   train         Trains with the specified dataset and classifier.
+  validate      Run cross validation on the training set
+  server        Run API server
   
 Examples:
 
     Train and test the machine learning model
-    - python model.py train hackforgood_human_classified.xlsx
+    - python model.py train
 """
 
 
@@ -113,6 +115,8 @@ def main():
         train()
     elif (arguments.get("validate")):
         validate()
+    elif (arguments.get("server")):
+        run_flask_api()
 
 if __name__ == "__main__":
     sys.exit(main())
