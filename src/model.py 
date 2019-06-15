@@ -32,8 +32,8 @@ dataset_df.rename(columns=lambda x: x.strip(), inplace = True)
 original_headers = list(dataset_df.columns.values)
 
 # put the numeric column names in a python list
-dataframe_numeric = dataset_df._get_numeric_data()
-feature_cols = list(dataframe_numeric.columns.values)
+features = dataset_df.drop('impact', 1)
+feature_cols = list(features.columns.values)
 
 # Target column and data
 target_cols = ['impact']
@@ -41,7 +41,7 @@ target = dataset_df['impact']
 
 # split the dataset in training and test set:
 x_train, x_test, y_train, y_test = train_test_split(
-    dataframe_numeric, target, test_size=0.20, random_state=RANDOM_STATE)
+    features, target, test_size=0.20, random_state=RANDOM_STATE)
 
 # Model pipeline
 features_pipeline = ('features', FeatureUnion([
