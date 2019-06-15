@@ -111,7 +111,7 @@ def validate():
 def predict(text):
     return model_pipeline.predict([text])
 
-# Flask API TODO: Wire to predict function
+# Flask API
 @app.route('/predict', methods = ['POST'])
 def api_predict():
     if request.method == 'POST':
