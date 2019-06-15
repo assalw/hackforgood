@@ -1,0 +1,270 @@
+"","CountryName","CapitalName","CapitalLatitude","CapitalLongitude","CountryCode","ContinentName","Country","Capital","Currency","Lang_1","Lang_2","Lang_3","country name","alpha2","alpha3","ISO 639-2 Code","ISO 639-1 Code","English name of Language","French name of Language","German name of Language"
+"1","Somaliland","Hargeisa","9.55",44.05,"NULL","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2","South Georgia and South Sandwich Islands","King Edward Point","-54.283333",-36.5,"GS","Antarctica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","French Southern and Antarctic Lands","Port-aux-Français","-49.35",70.216667,"TF","Antarctica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4","Palestine","Jerusalem","31.766666666666666",35.233333,"PS","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5","Aland Islands","Mariehamn","60.116667",19.9,"AX","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6","Nauru","Yaren","-0.5477",166.920867,"NR","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7","Saint Martin","Marigot","18.0731",-63.0822,"MF","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8","Tokelau","Atafu","-9.166667",-171.833333,"TK","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9","Western Sahara","El-Aaiún","27.153611",-13.203333,"EH","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"10","Afghanistan","Kabul","34.516666666666666",69.183333,"AF","Asia","Afghanistan","Kabul","Afghani","Dari","Persian","Pashto","Afghanistan","AF","AFG",NA,NA,NA,NA,NA
+"11","Albania","Tirana","41.31666666666667",19.816667,"AL","Europe","Albania","Tirane","Lek","Albanian",NA,NA,"Albania","AL","ALB","alb (B)
+sqi (T)","sq","Albanian","albanais","Albanisch"
+"12","Albania","Tirana","41.31666666666667",19.816667,"AL","Europe","Albania","Tirane","Lek","Albanian",NA,NA,"Albania","AL","ALB","alb (B)
+sqi (T)","sq","Albanian","albanais","Albanisch"
+"13","Algeria","Algiers","36.75",3.05,"DZ","Africa","Algeria","Algiers","Algerian Dinar","Arabic","Tamazight","French","Algeria","DZ","DZA","ara","ar","Arabic","arabe","Arabisch"
+"14","American Samoa","Pago Pago","-14.266666666666667",-170.7,"AS","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","Andorra","Andorra la Vella","42.5",1.516667,"AD","Europe","Andorra","Andorra la Vella","Euro","Catalan",NA,NA,"Andorra","AD","AND",NA,NA,NA,NA,NA
+"16","Angola","Luanda","-8.833333333333334",13.216667,"AO","Africa","Angola","Luanda","Kwanza","Portuguese",NA,NA,"Angola","AO","AGO","por","pt","Portuguese","portugais","Portugiesisch"
+"17","Anguilla","The Valley","18.216666666666665",-63.05,"AI","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"18","Antigua and Barbuda","Saint John's","17.116666666666667",-61.85,"AG","North America","Antigua and Barbuda","Saint John's","East Caribbean Dollar","English",NA,NA,"Antigua and Barbuda","AG","ATG","eng","en","English","anglais","Englisch"
+"19","Argentina","Buenos Aires","-34.583333333333336",-58.666667,"AR","South America","Argentina","Buenos Aires","Argentine Peso","Spanish",NA,NA,"Argentina","AR","ARG",NA,NA,NA,NA,NA
+"20","Armenia","Yerevan","40.166666666666664",44.5,"AM","Europe","Armenia","Yerevan","Dram","Armenian",NA,NA,"Armenia","AM","ARM","arm (B)
+hye (T)","hy","Armenian","arménien","Armenisch"
+"21","Armenia","Yerevan","40.166666666666664",44.5,"AM","Europe","Armenia","Yerevan","Dram","Armenian",NA,NA,"Armenia","AM","ARM","arm (B)
+hye (T)","hy","Armenian","arménien","Armenisch"
+"22","Aruba","Oranjestad","12.516666666666667",-70.033333,"AW","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"23","Australia","Canberra","-35.266666666666666",149.133333,"AU","Australia","Australia","Canberra","Australian Dollar","English",NA,NA,NA,NA,NA,"eng","en","English","anglais","Englisch"
+"24","Austria","Vienna","48.2",16.366667,"AT","Europe","Austria","Vienna","Euro","German",NA,NA,"Austria","AT","AUT","ger (B)
+deu (T)","de","German","allemand","Deutsch"
+"25","Austria","Vienna","48.2",16.366667,"AT","Europe","Austria","Vienna","Euro","German",NA,NA,"Austria","AT","AUT","ger (B)
+deu (T)","de","German","allemand","Deutsch"
+"26","Azerbaijan","Baku","40.38333333333333",49.866667,"AZ","Europe","Azerbaijan","Baku","Manat","Azerbaijani",NA,NA,"Azerbaijan","AZ","AZE","aze","az","Azerbaijani","azéri","Aserbeidschanisch"
+"27","Bahamas","Nassau","25.083333333333332",-77.35,"BS","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"28","Bahrain","Manama","26.233333333333334",50.566667,"BH","Asia","Bahrain","Manama","Bahraini Dinar","Arabic",NA,NA,"Bahrain","BH","BHR","ara","ar","Arabic","arabe","Arabisch"
+"29","Bangladesh","Dhaka","23.716666666666665",90.4,"BD","Asia","Bangladesh","Dhaka","Taka","Bangla",NA,NA,"Bangladesh","BD","BGD",NA,NA,NA,NA,NA
+"30","Barbados","Bridgetown","13.1",-59.616667,"BB","North America","Barbados","Bridgetown","Barbadian Dollar","English",NA,NA,"Barbados","BB","BRB","eng","en","English","anglais","Englisch"
+"31","Belarus","Minsk","53.9",27.566667,"BY","Europe","Belarus","Minsk","Belarusian Ruble","Belarusian","Russian",NA,"Belarus","BY","BLR","bel","be","Belarusian","biélorusse","Weißrussisch"
+"32","Belgium","Brussels","50.833333333333336",4.333333,"BE","Europe","Belgium","Brussels","Euro","Dutch","French","German","Belgium","BE","BEL",NA,NA,NA,NA,NA
+"33","Belize","Belmopan","17.25",-88.766667,"BZ","Central America","Belize","Belmopan","Belize Dollar","English",NA,NA,"Belize","BZ","BLZ","eng","en","English","anglais","Englisch"
+"34","Benin","Porto-Novo","6.483333333333333",2.616667,"BJ","Africa","Benin","Porto-Novo","West African CFA Franc","French",NA,NA,"Benin","BJ","BEN","fre (B)
+fra (T)","fr","French","français","Französisch"
+"35","Benin","Porto-Novo","6.483333333333333",2.616667,"BJ","Africa","Benin","Porto-Novo","West African CFA Franc","French",NA,NA,"Benin","BJ","BEN","fre (B)
+fra (T)","fr","French","français","Französisch"
+"36","Bermuda","Hamilton","32.28333333333333",-64.783333,"BM","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"37","Bhutan","Thimphu","27.466666666666665",89.633333,"BT","Asia","Bhutan","Thimphu","Ngultrum","Dzongkha",NA,NA,"Bhutan","BT","BTN","dzo","dz","Dzongkha","dzongkha","Dzongkha"
+"38","Bolivia","La Paz","-16.5",-68.15,"BO","South America","Bolivia","La Paz; Sucre","Boliviano","Spanish","Quechua","Aymara",NA,NA,NA,NA,NA,NA,NA,NA
+"39","Bosnia and Herzegovina","Sarajevo","43.86666666666667",18.416667,"BA","Europe","Bosnia and Herzegovina","Sarajevo","Convertible Mark","Bosnian","Croatian","Serbian","Bosnia and Herzegovina","BA","BIH","bos","bs","Bosnian","bosniaque","Bosnisch"
+"40","Botswana","Gaborone","-24.633333333333333",25.9,"BW","Africa","Botswana","Gaborone","Pula","English","Tswana",NA,"Botswana","BW","BWA","eng","en","English","anglais","Englisch"
+"41","Brazil","Brasilia","-15.783333333333333",-47.916667,"BR","South America","Brazil","Brasilia","Real","Portuguese",NA,NA,"Brazil","BR","BRA","por","pt","Portuguese","portugais","Portugiesisch"
+"42","British Virgin Islands","Road Town","18.416666666666668",-64.616667,"VG","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"43","Brunei Darussalam","Bandar Seri Begawan","4.883333333333333",114.933333,"BN","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"44","Bulgaria","Sofia","42.68333333333333",23.316667,"BG","Europe","Bulgaria","Sofia","Lev","Bulgarian",NA,NA,"Bulgaria","BG","BGR","bul","bg","Bulgarian","bulgare","Bulgarisch"
+"45","Burkina Faso","Ouagadougou","12.366666666666667",-1.516667,"BF","Africa","Burkina Faso","Ouagadougou","West African CFA Franc","French",NA,NA,"Burkina Faso","BF","BFA","fre (B)
+fra (T)","fr","French","français","Französisch"
+"46","Burkina Faso","Ouagadougou","12.366666666666667",-1.516667,"BF","Africa","Burkina Faso","Ouagadougou","West African CFA Franc","French",NA,NA,"Burkina Faso","BF","BFA","fre (B)
+fra (T)","fr","French","français","Französisch"
+"47","Myanmar","Rangoon","16.8",96.15,"MM","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"48","Burundi","Bujumbura","-3.3666666666666667",29.35,"BI","Africa","Burundi","Bujumbura","Burundi Franc","Kirundi","French",NA,"Burundi","BI","BDI",NA,NA,NA,NA,NA
+"49","Cambodia","Phnom Penh","11.55",104.916667,"KH","Asia","Cambodia","Phnom Penh","Riel","Khmer",NA,NA,"Cambodia","KH","KHM",NA,NA,NA,NA,NA
+"50","Cameroon","Yaounde","3.8666666666666667",11.516667,"CM","Africa","Cameroon","Yaounde","Central African CFA Franc","French","English",NA,"Cameroon","CM","CMR","fre (B)
+fra (T)","fr","French","français","Französisch"
+"51","Cameroon","Yaounde","3.8666666666666667",11.516667,"CM","Africa","Cameroon","Yaounde","Central African CFA Franc","French","English",NA,"Cameroon","CM","CMR","fre (B)
+fra (T)","fr","French","français","Französisch"
+"52","Canada","Ottawa","45.416666666666664",-75.7,"CA","Central America","Canada","Ottawa","Canadian Dollar","English","French",NA,"Canada","CA","CAN","eng","en","English","anglais","Englisch"
+"53","Cape Verde","Praia","14.916666666666666",-23.516667,"CV","Africa","Cape Verde","Praia","Cape Verdean Escudo","Portuguese",NA,NA,NA,NA,NA,"por","pt","Portuguese","portugais","Portugiesisch"
+"54","Cayman Islands","George Town","19.3",-81.383333,"KY","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"55","Central African Republic","Bangui","4.366666666666666",18.583333,"CF","Africa","Central African Republic","Bangui","Central African CFA Franc","Sango","French",NA,NA,NA,NA,"sag","sg","Sango","sango","Sango-Sprache"
+"56","Chad","N'Djamena","12.1",15.033333,"TD","Africa","Chad","N'Djamena","Central African CFA Franc","French","Arabic",NA,"Chad","TD","TCD","fre (B)
+fra (T)","fr","French","français","Französisch"
+"57","Chad","N'Djamena","12.1",15.033333,"TD","Africa","Chad","N'Djamena","Central African CFA Franc","French","Arabic",NA,"Chad","TD","TCD","fre (B)
+fra (T)","fr","French","français","Französisch"
+"58","Chile","Santiago","-33.45",-70.666667,"CL","South America","Chile","Santiago","Chilean Peso","Spanish",NA,NA,"Chile","CL","CHL",NA,NA,NA,NA,NA
+"59","China","Beijing","39.916666666666664",116.383333,"CN","Asia","China","Beijing","Chinese Yuan","Mandarin",NA,NA,"China","CN","CHN",NA,NA,NA,NA,NA
+"60","Christmas Island","The Settlement","-10.416666666666666",105.716667,"CX","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"61","Cocos Islands","West Island","-12.166666666666666",96.833333,"CC","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"62","Colombia","Bogota","4.6",-74.083333,"CO","South America","Colombia","Bogota","Colombian Peso","Spanish",NA,NA,"Colombia","CO","COL",NA,NA,NA,NA,NA
+"63","Comoros","Moroni","-11.7",43.233333,"KM","Africa","Comoros","Moroni","Comorian Franc","Comorian","Arabic","French",NA,NA,NA,NA,NA,NA,NA,NA
+"64","Democratic Republic of the Congo","Kinshasa","-4.316666666666666",15.3,"CD","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"65","Republic of Congo","Brazzaville","-4.25",15.283333,"CG","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"66","Cook Islands","Avarua","-21.2",-159.766667,"CK","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"67","Costa Rica","San Jose","9.933333333333334",-84.083333,"CR","Central America","Costa Rica","San Jose","Colon","Spanish",NA,NA,"Costa Rica","CR","CRI",NA,NA,NA,NA,NA
+"68","Cote d'Ivoire","Yamoussoukro","6.816666666666666",-5.266667,"CI","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"69","Croatia","Zagreb","45.8",16,"HR","Europe","Croatia","Zagreb","Croatian","Kuna",NA,NA,"Croatia","HR","HRV",NA,NA,NA,NA,NA
+"70","Cuba","Havana","23.116666666666667",-82.35,"CU","North America","Cuba","Havana","Cuban Peso","Spanish",NA,NA,"Cuba","CU","CUB",NA,NA,NA,NA,NA
+"71","Curaçao","Willemstad","12.1",-68.916667,"CW","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"72","Cyprus","Nicosia","35.166666666666664",33.366667,"CY","Europe","Cyprus","Nicosia","Euro","Greek","Turkish",NA,"Cyprus","CY","CYP",NA,NA,NA,NA,NA
+"73","Czech Republic","Prague","50.083333333333336",14.466667,"CZ","Europe","Czech Republic","Prague","Czech Koruna","Czech","Slovak",NA,NA,NA,NA,"cze (B)
+ces (T)","cs","Czech","tchèque","Tschechisch"
+"74","Czech Republic","Prague","50.083333333333336",14.466667,"CZ","Europe","Czech Republic","Prague","Czech Koruna","Czech","Slovak",NA,NA,NA,NA,"cze (B)
+ces (T)","cs","Czech","tchèque","Tschechisch"
+"75","Denmark","Copenhagen","55.666666666666664",12.583333,"DK","Europe","Denmark","Copenhagen","Danish Krone","Danish",NA,NA,"Denmark","DK","DNK","dan","da","Danish","danois","Dänisch"
+"76","Djibouti","Djibouti","11.583333333333334",43.15,"DJ","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"77","Dominica","Roseau","15.3",-61.4,"DM","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"78","Dominican Republic","Santo Domingo","18.466666666666665",-69.9,"DO","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"79","Ecuador","Quito","-0.21666666666666667",-78.5,"EC","South America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"80","Egypt","Cairo","30.05",31.25,"EG","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"81","El Salvador","San Salvador","13.7",-89.2,"SV","Central America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"82","Equatorial Guinea","Malabo","3.75",8.783333,"GQ","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"83","Eritrea","Asmara","15.333333333333334",38.933333,"ER","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"84","Estonia","Tallinn","59.43333333333333",24.716667,"EE","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"85","Ethiopia","Addis Ababa","9.033333333333333",38.7,"ET","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"86","Falkland Islands","Stanley","-51.7",-57.85,"FK","South America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"87","Faroe Islands","Torshavn","62",-6.766667,"FO","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"88","Fiji","Suva","-18.133333333333333",178.416667,"FJ","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"89","Finland","Helsinki","60.166666666666664",24.933333,"FI","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"90","France","Paris","48.86666666666667",2.333333,"FR","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"91","French Polynesia","Papeete","-17.533333333333335",-149.566667,"PF","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"92","Gabon","Libreville","0.38333333333333336",9.45,"GA","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"93","The Gambia","Banjul","13.45",-16.566667,"GM","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"94","Georgia","Tbilisi","41.68333333333333",44.833333,"GE","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"95","Germany","Berlin","52.516666666666666",13.4,"DE","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"96","Ghana","Accra","5.55",-0.216667,"GH","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"97","Gibraltar","Gibraltar","36.13333333333333",-5.35,"GI","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"98","Greece","Athens","37.983333333333334",23.733333,"GR","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"99","Greenland","Nuuk","64.18333333333334",-51.75,"GL","Central America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"100","Grenada","Saint George's","12.05",-61.75,"GD","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"101","Guam","Hagatna","13.466666666666667",144.733333,"GU","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"102","Guatemala","Guatemala City","14.616666666666667",-90.516667,"GT","Central America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"103","Guernsey","Saint Peter Port","49.45",-2.533333,"GG","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"104","Guinea","Conakry","9.5",-13.7,"GN","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"105","Guinea-Bissau","Bissau","11.85",-15.583333,"GW","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"106","Guyana","Georgetown","6.8",-58.15,"GY","South America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"107","Haiti","Port-au-Prince","18.533333333333335",-72.333333,"HT","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"108","Vatican City","Vatican City","41.9",12.45,"VA","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"109","Honduras","Tegucigalpa","14.1",-87.216667,"HN","Central America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"110","Hungary","Budapest","47.5",19.083333,"HU","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"111","Iceland","Reykjavik","64.15",-21.95,"IS","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"112","India","New Delhi","28.6",77.2,"IN","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"113","Indonesia","Jakarta","-6.166666666666667",106.816667,"ID","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"114","Iran","Tehran","35.7",51.416667,"IR","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"115","Iraq","Baghdad","33.333333333333336",44.4,"IQ","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"116","Ireland","Dublin","53.31666666666667",-6.233333,"IE","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"117","Isle of Man","Douglas","54.15",-4.483333,"IM","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"118","Israel","Jerusalem","31.766666666666666",35.233333,"IL","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"119","Italy","Rome","41.9",12.483333,"IT","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"120","Jamaica","Kingston","18",-76.8,"JM","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"121","Japan","Tokyo","35.68333333333333",139.75,"JP","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"122","Jersey","Saint Helier","49.18333333333333",-2.1,"JE","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"123","Jordan","Amman","31.95",35.933333,"JO","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"124","Kazakhstan","Astana","51.166666666666664",71.416667,"KZ","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"125","Kenya","Nairobi","-1.2833333333333332",36.816667,"KE","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"126","Kiribati","Tarawa","-0.8833333333333333",169.533333,"KI","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"127","North Korea","Pyongyang","39.016666666666666",125.75,"KP","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"128","South Korea","Seoul","37.55",126.983333,"KR","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"129","Kosovo","Pristina","42.666666666666664",21.166667,"KO","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"130","Kuwait","Kuwait City","29.366666666666667",47.966667,"KW","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"131","Kyrgyzstan","Bishkek","42.86666666666667",74.6,"KG","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"132","Laos","Vientiane","17.966666666666665",102.6,"LA","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"133","Latvia","Riga","56.95",24.1,"LV","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"134","Lebanon","Beirut","33.86666666666667",35.5,"LB","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"135","Lesotho","Maseru","-29.316666666666666",27.483333,"LS","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"136","Liberia","Monrovia","6.3",-10.8,"LR","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"137","Libya","Tripoli","32.88333333333333",13.166667,"LY","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"138","Liechtenstein","Vaduz","47.13333333333333",9.516667,"LI","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"139","Lithuania","Vilnius","54.68333333333333",25.316667,"LT","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"140","Luxembourg","Luxembourg","49.6",6.116667,"LU","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"141","Macedonia","Skopje","42",21.433333,"MK","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"142","Madagascar","Antananarivo","-18.916666666666668",47.516667,"MG","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"143","Malawi","Lilongwe","-13.966666666666667",33.783333,"MW","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"144","Malaysia","Kuala Lumpur","3.1666666666666665",101.7,"MY","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"145","Maldives","Male","4.166666666666667",73.5,"MV","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"146","Mali","Bamako","12.65",-8,"ML","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"147","Malta","Valletta","35.88333333333333",14.5,"MT","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"148","Marshall Islands","Majuro","7.1",171.383333,"MH","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"149","Mauritania","Nouakchott","18.066666666666666",-15.966667,"MR","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"150","Mauritius","Port Louis","-20.15",57.483333,"MU","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"151","Mexico","Mexico City","19.433333333333334",-99.133333,"MX","Central America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"152","Federated States of Micronesia","Palikir","6.916666666666667",158.15,"FM","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"153","Moldova","Chisinau","47",28.85,"MD","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"154","Monaco","Monaco","43.733333333333334",7.416667,"MC","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"155","Mongolia","Ulaanbaatar","47.916666666666664",106.916667,"MN","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"156","Montenegro","Podgorica","42.43333333333333",19.266667,"ME","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"157","Montserrat","Plymouth","16.7",-62.216667,"MS","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"158","Morocco","Rabat","34.016666666666666",-6.816667,"MA","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"159","Mozambique","Maputo","-25.95",32.583333,"MZ","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"160","Namibia","Windhoek","-22.566666666666666",17.083333,NA,"Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"161","Nepal","Kathmandu","27.716666666666665",85.316667,"NP","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"162","Netherlands","Amsterdam","52.35",4.916667,"NL","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"163","New Caledonia","Noumea","-22.266666666666666",166.45,"NC","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"164","New Zealand","Wellington","-41.3",174.783333,"NZ","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"165","Nicaragua","Managua","12.133333333333333",-86.25,"NI","Central America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"166","Niger","Niamey","13.516666666666667",2.116667,"NE","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"167","Nigeria","Abuja","9.083333333333334",7.533333,"NG","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"168","Niue","Alofi","-19.016666666666666",-169.916667,"NU","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"169","Norfolk Island","Kingston","-29.05",167.966667,"NF","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"170","Northern Mariana Islands","Saipan","15.2",145.75,"MP","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"171","Norway","Oslo","59.916666666666664",10.75,"NO","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"172","Oman","Muscat","23.616666666666667",58.583333,"OM","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"173","Pakistan","Islamabad","33.68333333333333",73.05,"PK","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"174","Palau","Melekeok","7.483333333333333",134.633333,"PW","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"175","Panama","Panama City","8.966666666666667",-79.533333,"PA","Central America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"176","Papua New Guinea","Port Moresby","-9.45",147.183333,"PG","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"177","Paraguay","Asuncion","-25.266666666666666",-57.666667,"PY","South America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"178","Peru","Lima","-12.05",-77.05,"PE","South America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"179","Philippines","Manila","14.6",120.966667,"PH","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"180","Pitcairn Islands","Adamstown","-25.066666666666666",-130.083333,"PN","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"181","Poland","Warsaw","52.25",21,"PL","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"182","Portugal","Lisbon","38.71666666666667",-9.133333,"PT","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"183","Puerto Rico","San Juan","18.466666666666665",-66.116667,"PR","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"184","Qatar","Doha","25.283333333333335",51.533333,"QA","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"185","Romania","Bucharest","44.43333333333333",26.1,"RO","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"186","Russia","Moscow","55.75",37.6,"RU","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"187","Rwanda","Kigali","-1.95",30.05,"RW","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"188","Saint Barthelemy","Gustavia","17.883333333333333",-62.85,"BL","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"189","Saint Helena","Jamestown","-15.933333333333334",-5.716667,"SH","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"190","Saint Kitts and Nevis","Basseterre","17.3",-62.716667,"KN","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"191","Saint Lucia","Castries","14",-61,"LC","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"192","Saint Pierre and Miquelon","Saint-Pierre","46.766666666666666",-56.183333,"PM","Central America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"193","Saint Vincent and the Grenadines","Kingstown","13.133333333333333",-61.216667,"VC","Central America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"194","Samoa","Apia","-13.816666666666666",-171.766667,"WS","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"195","San Marino","San Marino","43.93333333333333",12.416667,"SM","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"196","Sao Tome and Principe","Sao Tome","0.3333333333333333",6.733333,"ST","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"197","Saudi Arabia","Riyadh","24.65",46.7,"SA","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"198","Senegal","Dakar","14.733333333333333",-17.633333,"SN","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"199","Serbia","Belgrade","44.833333333333336",20.5,"RS","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"200","Seychelles","Victoria","-4.616666666666667",55.45,"SC","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"201","Sierra Leone","Freetown","8.483333333333333",-13.233333,"SL","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"202","Singapore","Singapore","1.2833333333333332",103.85,"SG","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"203","Sint Maarten","Philipsburg","18.016666666666666",-63.033333,"SX","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"204","Slovakia","Bratislava","48.15",17.116667,"SK","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"205","Slovenia","Ljubljana","46.05",14.516667,"SI","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"206","Solomon Islands","Honiara","-9.433333333333334",159.95,"SB","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"207","Somalia","Mogadishu","2.066666666666667",45.333333,"SO","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"208","South Africa","Pretoria","-25.7",28.216667,"ZA","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"209","South Sudan","Juba","4.85",31.616667,"SS","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"210","Spain","Madrid","40.4",-3.683333,"ES","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"211","Sri Lanka","Colombo","6.916666666666667",79.833333,"LK","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"212","Sudan","Khartoum","15.6",32.533333,"SD","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"213","Suriname","Paramaribo","5.833333333333333",-55.166667,"SR","South America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"214","Svalbard","Longyearbyen","78.21666666666667",15.633333,"SJ","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"215","Swaziland","Mbabane","-26.316666666666666",31.133333,"SZ","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"216","Sweden","Stockholm","59.333333333333336",18.05,"SE","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"217","Switzerland","Bern","46.916666666666664",7.466667,"CH","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"218","Syria","Damascus","33.5",36.3,"SY","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"219","Taiwan","Taipei","25.033333333333335",121.516667,"TW","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"220","Tajikistan","Dushanbe","38.55",68.766667,"TJ","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"221","Tanzania","Dar es Salaam","-6.8",39.283333,"TZ","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"222","Thailand","Bangkok","13.75",100.516667,"TH","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"223","Timor-Leste","Dili","-8.583333333333334",125.6,"TL","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"224","Togo","Lome","6.116666666666666",1.216667,"TG","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"225","Tonga","Nuku'alofa","-21.133333333333333",-175.2,"TO","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"226","Trinidad and Tobago","Port of Spain","10.65",-61.516667,"TT","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"227","Tunisia","Tunis","36.8",10.183333,"TN","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"228","Turkey","Ankara","39.93333333333333",32.866667,"TR","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"229","Turkmenistan","Ashgabat","37.95",58.383333,"TM","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"230","Turks and Caicos Islands","Grand Turk","21.466666666666665",-71.133333,"TC","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"231","Tuvalu","Funafuti","-8.516666666666667",179.216667,"TV","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"232","Uganda","Kampala","0.31666666666666665",32.55,"UG","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"233","Ukraine","Kyiv","50.43333333333333",30.516667,"UA","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"234","United Arab Emirates","Abu Dhabi","24.466666666666665",54.366667,"AE","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"235","United Kingdom","London","51.5",-0.083333,"GB","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"236","United States","Washington","D.C.",38.883333,"-77.000000","US",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"237","Uruguay","Montevideo","-34.85",-56.166667,"UY","South America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"238","Uzbekistan","Tashkent","41.31666666666667",69.25,"UZ","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"239","Vanuatu","Port-Vila","-17.733333333333334",168.316667,"VU","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"240","Venezuela","Caracas","10.483333333333333",-66.866667,"VE","South America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"241","Vietnam","Hanoi","21.033333333333335",105.85,"VN","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"242","US Virgin Islands","Charlotte Amalie","18.35",-64.933333,"VI","North America",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"243","Wallis and Futuna","Mata-Utu","-13.95",-171.933333,"WF","Australia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"244","Yemen","Sanaa","15.35",44.2,"YE","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"245","Zambia","Lusaka","-15.416666666666666",28.283333,"ZM","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"246","Zimbabwe","Harare","-17.816666666666666",31.033333,"ZW","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"247","US Minor Outlying Islands","Washington","D.C.",38.883333,"-77.000000","UM",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"248","Antarctica","N/A","0",0,"AQ","Antarctica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"249","Northern Cyprus","North Nicosia","35.183333",33.366667,"NULL","Europe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"250","Hong Kong","N/A","0",0,"HK","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"251","Heard Island and McDonald Islands","N/A","0",0,"HM","Antarctica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"252","British Indian Ocean Territory","Diego Garcia","-7.3",72.4,"IO","Africa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"253","Macau","N/A","0",0,"MO","Asia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
