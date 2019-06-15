@@ -39,7 +39,6 @@ for filename in os.listdir(os.path.abspath(directory)):
                         if elem.text is not None: 
                                 sourcetext += " " + elem.text
         
-        
         # Get the target text
         targettext = ""
         targettext_list = doc_tree.findall(".//{urn:oasis:names:tc:xliff:document:1.2}target")
@@ -49,7 +48,7 @@ for filename in os.listdir(os.path.abspath(directory)):
                         if elem.text is not None: 
                                 targettext += " " + elem.text
 
-        hackforgood_dataset_csv += "\"{}\"~ {}~ {}~ {}~ \"{}\"~ \"{}\"\n".format(filename,
+        hackforgood_dataset_csv += "\"{}\", {}, {}, {}, \"{}\", \"{}\"\n".format(filename,
                                                                                 doctype,
                                                                                 sourcelang, 
                                                                                 targetlang, 
