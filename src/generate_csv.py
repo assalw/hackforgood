@@ -23,14 +23,17 @@ for filename in os.listdir(os.path.abspath(directory)):
 
         sourcetext = ""
         
-        sourcetext_list = doc_tree.findall(".//{urn:oasis:names:tc:xliff:document:1.2}g")
-        for i in sourcetext_list:
-                if i.text is not None:
-                        sourcetext = sourcetext + i.text
+        sourcetext_list = doc_tree.findall(".//{urn:oasis:names:tc:xliff:document:1.2}source")
+        
+        #for i in sourcetext_list:
+        #        if i.text is not None:
+        #                sourcetext = sourcetext + i.text
 
         targettext = ""
 
-        print(file_nodes[0].attrib.get('target-language'))
+        for elem in sourcetext_list:
+                for elem in elem.iter():
+                        print(elem.text)
         #hackforgood_dataset_csv
 
         
