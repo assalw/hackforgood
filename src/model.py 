@@ -7,8 +7,8 @@ from sklearn.pipeline import Pipeline
 from sklearn.datasets import load_files
 from sklearn import metrics
 from sklearn.preprocessing import MaxAbsScaler
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_score
+from sklearn.metrics import classification_report, accuracy_score, make_scorer
 
 import numpy as np
 import pandas as pd
@@ -65,11 +65,14 @@ def save_model():
     pickle.dump(model_pipeline, pickle_out)
     pickle_out.close()
 
+def classification_report_with_accuracy_score(y_true, y_pred):
+    print(classification_report(y_true, y_pred)) # print classification report
+    return accuracy_score(y_true, y_pred) # return accuracy score
+
 def validate():
     cross_val = StratifiedKFold(n_splits=10, shuffle=False, random_state=RANDOM_STATE)
-    scores = cross_val_score(model_pipeline, x_train, y_train, cv=cross_val)
+    scores = cross_val_score(model_pipeline, x_train, y_train, cv=cross_val, scoring=make_scorer(classification_report_with_accuracy_score))
     print(scores)
-    return scores
 
 def predict(text):
     return model_pipeline.predict(text)
