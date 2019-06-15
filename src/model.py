@@ -13,27 +13,13 @@ from sklearn.preprocessing import MaxAbsScaler
 import numpy as np
 import pandas as pd
 
-# To get stable experimental result
-RANDOM_STATE = 66
-
-# Read dataset https://stackoverflow.com/questions/11023411/how-to-import-csv-data-file-into-scikit-learn
-input_file = "../dataset/hackforgood_dataset_wadie_model.xlsx"
-dataset_df = pd.read_excel(input_file, header = 0)
+# Read dataset 
+input_file = "../dataset/hackforgood_dataset_wadie_model.csv"
+dataset_df = pd.read_csv(input_file, header = 0)
 
 # put the original column names in a python list
 original_headers = list(dataset_df.columns.values)
 
-# put the numeric column names in a python list
-dataframe_numeric = dataframe._get_numeric_data()
-feature_cols = list(dataframe_numeric.columns.values)
-
-# Target column and data
-target_cols = ['impact']
-target = dataset_df['impact']
-
-# split the dataset in training and test set:
-self.x_train, self.x_test, self.y_train, self.y_test = train_test_split(
-    self.features, self.target, test_size=0.20, random_state=RANDOM_STATE)
 
 # Model pipeline
 features = ('features', FeatureUnion([
