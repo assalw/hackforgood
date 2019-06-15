@@ -1,6 +1,8 @@
 import xml.etree.ElementTree as ET
 import os
 import re
+import io.StringIO
+from xlsxwriter.workbook import Workbook
 
 # Used for sample dataset
 #exit_please = 0
@@ -48,6 +50,10 @@ for filename in os.listdir(os.path.abspath(directory)):
                         if elem.text is not None: 
                                 targettext += " " + elem.text
 
+        # Cleanup chars
+        sourcetext = re.sub('\W+', ' ',sourcetext)
+        targettext = re.sub('\W+', ' ',targettext)
+
         hackforgood_dataset_csv += "\"{}\"~ {}~ {}~ {}~ \"{}\"~ \"{}\"\n".format(filename,
                                                                                 doctype,
                                                                                 sourcelang, 
@@ -67,3 +73,8 @@ for filename in os.listdir(os.path.abspath(directory)):
 hackforgood_dataset_csv_file = open("../dataset/hackforgood_dataset.csv", "w")
 hackforgood_dataset_csv_file.write(hackforgood_dataset_csv)
 hackforgood_dataset_csv_file.close()
+
+workbook = Workbook("./dataset/hackforgood_dataset.xlsx")
+worksheet = workbook.add_worksheet()
+s = StringIO.StringIO(hackforgood_dataset_csv)
+for line in s:
