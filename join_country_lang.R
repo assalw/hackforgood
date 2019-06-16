@@ -50,7 +50,7 @@ hackforgood_classification <- read_delim("C:/Users/Gins - SI/Desktop/hackforgood
                                          ";", escape_double = FALSE, trim_ws = TRUE)
 #remap 1 and 0 to text
 
-hackforgood_classification$Agriculture <- ifelse(0, " ", "Agriculture")
+#hackforgood_classification$Agriculture <- ifelse(0, " ", "Agriculture")
 
 #[1] "filename"                                   "Agriculture"                               
 #[3] "communities_and_human_settlements"          "conflict_and_development"                  
@@ -68,10 +68,12 @@ hackforgood_classification$Agriculture <- ifelse(0, " ", "Agriculture")
 #[27] "transport"                                  "urban_development"                         
 #[29] "water_resource"                             "water_supply_and_sanitation"
 
+hackforgood_classification[] <- lapply(hackforgood_classification, tolower) 
 
+#df[] <- lapply(df, tolower)
 
 for(i in 1:12136){
-    hackforgood_classification$Agriculture[i] <- ifelse(hackforgood_classification$Agriculture[i] == 1,
+    hackforgood_classification$agriculture[i] <- ifelse(hackforgood_classification$agriculture[i] == 1,
                                                         names(hackforgood_classification)[2],
                                                         NA)
     
@@ -203,14 +205,14 @@ hackforgood_classification$label <- paste0(hackforgood_classification$Agricultur
                                    sep=",")
 
 #remove NAs
-hackforgood_classification$label <- gsub("NA, ","",hackforgood_classification$label)
+#hackforgood_classification$label <- gsub("NA, ","",hackforgood_classification$label)
 #df.apply(lambda x: x.astype(str).str.upper())
 
-hackforgood_classification.apply(lambda x: x.astype(str).str.lower())
 
 #map the 10 catgeories to the 30 from UN
 twb_categories <- read_delim("C:/Users/Gins - SI/Desktop/Mapping29_11categories.csv", 
                                      ";", escape_double = FALSE, trim_ws = TRUE)
+twb_categories[] <- lapply(twb_categories, tolower)
 
 library(reshape2)
 
@@ -218,6 +220,10 @@ hack_long <- melt(hackforgood_classification, id.vars = c("filename"))
 
 joined_mapp <- sqldf::sqldf("Select twb_categories.*, hack_long.* from hack_long
                             left join twb_categories on categories = value")
+
+joined_mapp[] <- lapply(joined_mapp, tolower)
+
+write_csv(joined_mapp, "joined_map.csv")
 
 
 
