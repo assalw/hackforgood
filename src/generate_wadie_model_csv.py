@@ -1,7 +1,6 @@
 import xml.etree.ElementTree as ET
 import os
 import re
-from xlsxwriter.workbook import Workbook
 
 # Used for sample dataset
 #exit_please = 0
@@ -10,7 +9,7 @@ from xlsxwriter.workbook import Workbook
 directory = "../dataset/hackathon-for-good-2019_TWB-challenge_files"
 
 # Generated dataset
-hackforgood_dataset_csv = "filename~ datatype~ sourcelang~ targetlang~ sourcetext~ targettext\n"
+hackforgood_dataset_csv = "filename~ sourcetext~ impact\n"
 
 # Loop through al the dirs
 for filename in os.listdir(os.path.abspath(directory)):
@@ -49,16 +48,8 @@ for filename in os.listdir(os.path.abspath(directory)):
                         if elem.text is not None: 
                                 targettext += " " + elem.text
 
-        # Cleanup chars
-        sourcetext = re.sub('\W+', ' ',sourcetext)
-        targettext = re.sub('\W+', ' ',targettext)
-
-        hackforgood_dataset_csv += "\"{}\"~ {}~ {}~ {}~ \"{}\"~ \"{}\"\n".format(filename,
-                                                                                doctype,
-                                                                                sourcelang, 
-                                                                                targetlang, 
-                                                                                sourcetext.replace('\n', ' '), 
-                                                                                targettext.replace('\n', ' ')) 
+        hackforgood_dataset_csv += "\"{}\"~ \"{}\"~ {}\n".format(filename, 
+                                                                sourcetext.replace('\n', ' '), '0') 
         
         #Only generate a sample dataset
         #exit_please += 1
@@ -69,6 +60,6 @@ for filename in os.listdir(os.path.abspath(directory)):
         #        exit()
 
 # Generate dataset
-hackforgood_dataset_csv_file = open("../dataset/hackforgood_dataset.csv", "w")
+hackforgood_dataset_csv_file = open("../dataset/hackforgood_dataset_wadie_model.csv", "w")
 hackforgood_dataset_csv_file.write(hackforgood_dataset_csv)
 hackforgood_dataset_csv_file.close()
