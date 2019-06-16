@@ -1,4 +1,4 @@
-# hackforgood
+# Hack for Good
 
 Model sourcecode can be found in the ***src*** directory of this repository
 
@@ -33,7 +33,7 @@ python model.py train
 
 ### Call API server:
 
-Predict with the text ***"predict this text"****
+Predict with the text ***"predict this text"***
 
 ```bash
 curl --request POST \
