@@ -1,4 +1,4 @@
-"""Translaters without borders impact classifier
+"""Translators without borders impact classifier
 
 Usage:
   model.py train
