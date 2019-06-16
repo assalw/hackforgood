@@ -33,7 +33,7 @@ python model.py train
 
 ### Call API server:
 
-Predict with the text "predict this text"
+Predict with the text ***"predict this text"****
 
 ```bash
 curl --request POST \
