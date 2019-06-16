@@ -1,4 +1,7 @@
 # hackforgood
+
+Model sourcecode can be found in the src directory of this repository
+
 ## Translaters without borders impact classifier
 
 ### Usage:
