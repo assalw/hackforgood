@@ -1,5 +1,5 @@
 # hackforgood
-##Translaters without borders impact classifier
+## Translaters without borders impact classifier
 
 ### Usage:
   model.py train
@@ -17,9 +17,12 @@
 ### Examples:
 
 Train and test the machine learning model
-    - python model.py train
 
-### Call API server
+```bash
+python model.py train
+```
+
+### Call API server:
 
 Predict with the text "predict this text"
 
