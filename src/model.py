@@ -8,7 +8,7 @@ Usage:
 
 Options:
   -h --help     Show this screen.
-  train         Trains with the specified dataset and classifier.
+  train         Trains with the cleaned dataset and classifier.
   validate      Run cross validation on the training set
   server        Run API server
   predict       Text to predict
