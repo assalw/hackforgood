@@ -2,10 +2,13 @@
 ## Translaters without borders impact classifier
 
 ### Usage:
+
+  ```
   model.py train
   model.py validate
   model.py server
   model.py predict <text>
+  ```
 
 ### Options:
 
