@@ -48,7 +48,7 @@ app = Flask(__name__)
 RANDOM_STATE = 66
 
 # Read dataset
-input_file = "../dataset/train_labels.xlsx"
+input_file = "../dataset/train_mapped.xlsx"
 dataset_df = pd.read_excel(input_file, header = 0)
 
 # Trim whitespaces from column names
