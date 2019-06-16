@@ -1,4 +1,4 @@
-# Hack for Good
+# :loop: Hack for Good
 
 Model sourcecode can be found in the ***src*** directory of this repository
 
