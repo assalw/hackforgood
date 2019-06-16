@@ -16,12 +16,14 @@
   
 ### Examples:
 
-    Train and test the machine learning model
+Train and test the machine learning model
     - python model.py train
 
 ### Call API server
 
-    Predict with the text "predict this text"
+Predict with the text "predict this text"
 
+```bash
 curl --request POST \
   --url 'http://127.0.0.1:5000/predict?text=predict%20this%20text&='
+```
