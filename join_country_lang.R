@@ -223,7 +223,15 @@ joined_mapp <- sqldf::sqldf("Select twb_categories.*, hack_long.* from hack_long
 
 joined_mapp[] <- lapply(joined_mapp, tolower)
 
-write_csv(joined_mapp, "joined_map.csv")
+
+hackforgood_dataset <- read_delim("C:/Users/Gins - SI/Desktop/hackforgood_dataset.csv", 
+                                  "~", escape_double = FALSE, trim_ws = TRUE)
+joined_mapp_to_source <- sqldf::sqldf("Select  hackforgood_dataset.sourcetext, joined_mapp.* from joined_mapp
+                     left join hackforgood_dataset on joined_mapp.filename = hackforgood_dataset.filename
+                     ")
+
+
+write_csv(joined_mapp_to_source, "joined_map_to_source.csv")
 
 
 
